@@ -1,0 +1,41 @@
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://shicechi.github.io/
+baseurl:
+title: Cechi Shi
+author: Cechi Shi
+name: Cechi Shi
+description: Personal blog and portfolio
+avatar: profile.png
+email: shicechi@gmail.com
+github: shicechi
+twitter: TristanShi
+linkedin: tristanshi
+# stackoverflow: username   #e.g: users/2735833/proton1h1
+# Comment out if you don't want disqus
+# disqus: username
+# google_analytics:
+email_full: mailto:shicechi@gmail.com
+website: github.io
+website_full: http://shicechi.github.io
+tel: +1 (206)708-5737
+tel_full: tel:+12067085737
+google_maps: 'https://www.google.com/maps/place/Sieg+Hall,+Seattle,+WA+98105/'
+address: 4221 9th Ave NE
+postcode: 98105
+city: Seattle
+country: United States
+
+# needed for travis-ci build
+exclude: [vendor]
